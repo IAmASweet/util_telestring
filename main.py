@@ -4,10 +4,11 @@ import asyncio
 import os
 import dotenv
 
-api_id = os.environ.get("API_ID")
-api_hash = os.environ.get("API_HASH")
 dotenv.load_dotenv()
 dotenv_file = dotenv.find_dotenv()
+api_id = os.environ.get("API_ID")
+api_hash = os.environ.get("API_HASH")
+
 
 
 def set_env(key, value):
